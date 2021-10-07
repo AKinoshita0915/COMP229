@@ -1,0 +1,61 @@
+﻿#body {
+    width : 1280px;
+    margin-left : auto;
+    margin-right : auto;
+    font-family : Arial;
+}
+
+#header {
+	font-size : x-large;
+    font-weight: bold;
+	text-transform: uppercase;
+}
+
+#sub-header {
+    font-size : large;
+    font-weight: bold;
+}
+
+#previous {
+    border: none;
+    float: right;
+}
+
+#copyright {
+    font-size: small;
+}
+
+#home-button {
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+nav a {
+	padding-right : 5px;
+	border-right : inherit;
+	border-right-style : solid;
+	border-right-width: 2px;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+body {
+    background-color : lavender;
+    color : gray;
+}
+
+span {
+    font-weight : bold;
+    color : #ff6666
+}
+
+dd {
+    display: list-item;
+    list-style-type: disc;
+    list-style-image: url(animated-bullet-10.gif);
+}
